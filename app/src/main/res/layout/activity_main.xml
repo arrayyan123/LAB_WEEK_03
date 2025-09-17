@@ -24,12 +24,10 @@
         android:layout_marginHorizontal="20dp"
         android:background="?android:attr/dividerVertical" />
 
-    <!-- Detail Fragment (1 bagian) -->
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_detail"
-        android:name="com.arrayyan.lab_week_03.DetailFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
 
 </LinearLayout>
